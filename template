@@ -1,0 +1,112 @@
+% Copyright 2025
+\documentclass[letterpaper, 11pt]{extarticle}
+% \usepackage{fontspec}
+
+% Document parameters
+\usepackage[spanish]{babel}
+\decimalpoint %separador punto
+\usepackage[margin = 1in]{geometry}
+
+% Packages for math
+\usepackage{mathrsfs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{dsfont}
+\usepackage{esint}
+
+% Packages for writing
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{framed}
+\usepackage{csquotes}
+
+% Miscellaneous packages
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{subcaption}
+\usepackage{caption}
+\captionsetup{format = hang, margin = 10pt, font = small, labelfont = bf}
+
+
+
+%///////////////////////////  FORMATO  //////////////////////////
+
+\usepackage{titlesec}
+\usepackage[many]{tcolorbox}
+
+% Adjust spacing after the chapter title
+\titlespacing*{\chapter}{0cm}{-2.0cm}{0.50cm}
+\titlespacing*{\section}{0cm}{0.50cm}{0.25cm}
+
+% Indent 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+
+% \numberwithin{equation}{section}
+
+\newtcbtheorem[]{problem}{Problema}%
+    {enhanced,
+    colback = yellow!15, %white,
+    colbacktitle = black!5,
+    coltitle = black,
+    boxrule = 0pt,
+    frame hidden,
+    borderline west = {0.5mm}{0.0mm}{black},
+    fonttitle = \bfseries\sffamily,
+    breakable,
+    before skip = 3ex,
+    after skip = 3ex
+}{problem}
+
+\tcbuselibrary{skins, breakable}
+%\pagecolor{yellow!7}
+
+
+
+%///////////////////////////  CONTENIDO  //////////////////////////
+\begin{document}
+
+
+\begin{Large}
+    \textsf{\textbf{PS01 -- Basic Econometrics}}
+    
+    \normalsize \textsf{Lecturer:} \text{Luis Chávez} 
+    \vspace{0.2cm} \hrule
+\end{Large}
+\vspace{0.2cm}
+\textcolor{gray}{\textbf{Apellidos y nombres: XXX}}
+
+
+%----------------------------------------------------------------
+\begin{problem}{}{}
+.......
+
+\begin{enumerate}[a)]
+    \item xxxxx
+    \item yyyyyy
+\end{enumerate}
+\end{problem}
+
+
+
+
+%----------------------------------------------------------------
+\begin{problem}{}{}
+Sea....
+
+\end{problem}
+
+
+\end{document}
+
+
+%----------------------------------------------------------------
+\begin{problem}{XXX}{}
+Sean..........
+
+\end{problem}
