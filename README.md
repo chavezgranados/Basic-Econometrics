@@ -7,7 +7,7 @@ Este curso introduce los conceptos fundamentales de la econometría, proporciona
 1. **El Modelo de Regresión Lineal General (MRLG)**
     - Introducción
       - Relaciones empíricas
-      - Acerca de econo-metría
+      - Acerca de econometría
       - Repaso matemático y estadístico
     - Modelos lineales
       - Regresión simple
