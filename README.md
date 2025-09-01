@@ -50,4 +50,4 @@ Este curso introduce los conceptos fundamentales de la econometría, proporciona
 Si tienes preguntas o sugerencias, puedes escribirme a: [jchavezg3@usmp.pe] o abrir un issue en este repositorio.
 
 ## 📜 Licencia
-Este curso está disponible bajo la licencia de. Puedes usar y modificar el material con la debida atribución y permiso.
+Este curso está disponible bajo la licencia de CC0-1.0 license. Puedes usar y modificar el material con la debida atribución y permiso.
